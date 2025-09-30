@@ -1,0 +1,8 @@
+{
+  // Array of relay URLs to listen on
+  "relay": ["wss://relay.getalby.com/v1"],
+  // Upstream wallet connect URI
+  "connect-uri": "nostr+walletconnect://YOUR_UPSTREAM_WALLET_CONNECT_URI_HERE",
+  // Path to a folder for storing data
+  "data": "./data"
+}
