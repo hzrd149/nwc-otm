@@ -4,10 +4,10 @@
     "": {
       "name": "nwc-otm",
       "dependencies": {
-        "applesauce-factory": "0.0.0-next-20250930093922",
-        "applesauce-relay": "0.0.0-next-20250930093922",
-        "applesauce-signers": "0.0.0-next-20250930093922",
-        "applesauce-wallet-connect": "0.0.0-next-20250930093922",
+        "applesauce-factory": "^4",
+        "applesauce-relay": "^4",
+        "applesauce-signers": "^4",
+        "applesauce-wallet-connect": "^4",
         "nostr-tools": "^2.7.2",
         "rxjs": "^7.8.2",
       },
@@ -52,17 +52,17 @@
 
     "@types/unist": ["@types/unist@3.0.3", "", {}, "sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q=="],
 
-    "applesauce-content": ["applesauce-content@0.0.0-next-20250930093922", "", { "dependencies": { "@cashu/cashu-ts": "^2.7.2", "@types/hast": "^3.0.4", "@types/mdast": "^4.0.4", "@types/unist": "^3.0.3", "applesauce-core": "0.0.0-next-20250930093922", "mdast-util-find-and-replace": "^3.0.2", "nostr-tools": "~2.17", "remark": "^15.0.1", "remark-parse": "^11.0.0", "unified": "^11.0.5", "unist-util-visit-parents": "^6.0.1" } }, "sha512-dUqOUWxVKC0MbIsYzL71rV/9GA5D0La9L1gMQQGIuBVhUZ/mH6sRPfniPUgpl+uKnhsCkIj4G/aqXJpCU4etEQ=="],
+    "applesauce-content": ["applesauce-content@4.0.0", "", { "dependencies": { "@cashu/cashu-ts": "^2.7.2", "@types/hast": "^3.0.4", "@types/mdast": "^4.0.4", "@types/unist": "^3.0.3", "applesauce-core": "^4.0.0", "mdast-util-find-and-replace": "^3.0.2", "nostr-tools": "~2.17", "remark": "^15.0.1", "remark-parse": "^11.0.0", "unified": "^11.0.5", "unist-util-visit-parents": "^6.0.1" } }, "sha512-2ZrhM/UCQkcZcAldXJX+KfWAPAtkoTXH5BwPhYpaMw0UgHjWX8mYiy/801PtLBr2gWkKd/Dw1obdNDcPUO3idw=="],
 
-    "applesauce-core": ["applesauce-core@0.0.0-next-20250930093922", "", { "dependencies": { "@noble/hashes": "^1.7.1", "@scure/base": "^1.2.4", "debug": "^4.4.0", "fast-deep-equal": "^3.1.3", "hash-sum": "^2.0.0", "light-bolt11-decoder": "^3.2.0", "nanoid": "^5.0.9", "nostr-tools": "~2.17", "rxjs": "^7.8.1" } }, "sha512-+AB0mncrLoOOWbbxIIdgIZMCnm0NSBC4Ek628Z+QjFON9iIQ+gDCpoak1tOyqXIrm4arCnynOBX/xGucy50nfw=="],
+    "applesauce-core": ["applesauce-core@4.0.0", "", { "dependencies": { "@noble/hashes": "^1.7.1", "@scure/base": "^1.2.4", "debug": "^4.4.0", "fast-deep-equal": "^3.1.3", "hash-sum": "^2.0.0", "light-bolt11-decoder": "^3.2.0", "nanoid": "^5.0.9", "nostr-tools": "~2.17", "rxjs": "^7.8.1" } }, "sha512-cXg9lDU0PKpAeVw7FGN3jzKB/k9kX5YOI7uwzrZhibYB5PfpHAYRiVexxBuFdT2RNaDgQogXl75gV2hag5uLuw=="],
 
-    "applesauce-factory": ["applesauce-factory@0.0.0-next-20250930093922", "", { "dependencies": { "applesauce-content": "0.0.0-next-20250930093922", "applesauce-core": "0.0.0-next-20250930093922", "nanoid": "^5.0.9", "nostr-tools": "^2.13" } }, "sha512-PK1bBd63AMyrMbu2n/yOFnArywa+sSoADExNYsYq80gn93r+oB0jBsgzgLQyB0H+CxGxaOLJYMxHAMSJ6YRzYA=="],
+    "applesauce-factory": ["applesauce-factory@4.0.0", "", { "dependencies": { "applesauce-content": "^4.0.0", "applesauce-core": "^4.0.0", "nanoid": "^5.0.9", "nostr-tools": "^2.13" } }, "sha512-Sqsg+bC7CkRXMxXLkO6YGoKxy/Aqtia9YenasS5qjPOQFmyFMwKRxaHCu6vX6KdpNSABusw0b9Tnn4gTh6CxLw=="],
 
-    "applesauce-relay": ["applesauce-relay@0.0.0-next-20250930093922", "", { "dependencies": { "@noble/hashes": "^1.7.1", "applesauce-core": "0.0.0-next-20250930093922", "nanoid": "^5.0.9", "nostr-tools": "~2.17", "rxjs": "^7.8.1" } }, "sha512-+xXs2Cpn8e53fYDG4eB1xSHLMw/6wN0di/1oWlpBOq250vNVI8hDKwj6zzr27xkzzIpiHlDHkGTTfmCmV+P/CA=="],
+    "applesauce-relay": ["applesauce-relay@4.0.0", "", { "dependencies": { "@noble/hashes": "^1.7.1", "applesauce-core": "^4.0.0", "nanoid": "^5.0.9", "nostr-tools": "~2.17", "rxjs": "^7.8.1" } }, "sha512-qoWjh9dABdL7AuSe4cmKiyZhNvrVZBRXA1GQgWiKSynm+rNYP+6Rc4SDT3vndNMqx9jRKbL4jwvKeU5vkVpFRA=="],
 
-    "applesauce-signers": ["applesauce-signers@0.0.0-next-20250930093922", "", { "dependencies": { "@noble/hashes": "^1.7.1", "@noble/secp256k1": "^1.7.1", "@scure/base": "^1.2.4", "applesauce-core": "0.0.0-next-20250930093922", "debug": "^4.4.0", "nanoid": "^5.0.9", "nostr-tools": "~2.17", "rxjs": "^7.8.2" } }, "sha512-621zgzygHURXVTArq6PkOotl1mZ7ID5Lh8cP7Rm7akjfLOIYG+GQjYIwVgp2iHMh+lwqvb30m+x9gFwjGYSKRw=="],
+    "applesauce-signers": ["applesauce-signers@4.0.0", "", { "dependencies": { "@noble/hashes": "^1.7.1", "@noble/secp256k1": "^1.7.1", "@scure/base": "^1.2.4", "applesauce-core": "^4.0.0", "debug": "^4.4.0", "nanoid": "^5.0.9", "nostr-tools": "~2.17", "rxjs": "^7.8.2" } }, "sha512-AHrPtH1Oy0l1OS7jwd/DfseUpOhTE8JhZIUIElcQgAlqE7Cgg5FO+LF7dWRPUNb3zn8P+mzEQN2wJhby84SNcA=="],
 
-    "applesauce-wallet-connect": ["applesauce-wallet-connect@0.0.0-next-20250930093922", "", { "dependencies": { "@noble/hashes": "^1.7.1", "applesauce-core": "0.0.0-next-20250930093922", "applesauce-factory": "0.0.0-next-20250930093922", "nostr-tools": "~2.17", "rxjs": "^7.8.1" } }, "sha512-wet4Hd61v/8vc0Z+UYI/79on/6W6K9MCNFVkPTbNDbBOd6dIwPrbNWZ/oqJ/5vVGgc4NrCJcWN7CJoEDHVur9g=="],
+    "applesauce-wallet-connect": ["applesauce-wallet-connect@4.0.0", "", { "dependencies": { "@noble/hashes": "^1.7.1", "applesauce-core": "^4.0.0", "applesauce-factory": "^4.0.0", "nostr-tools": "~2.17", "rxjs": "^7.8.1" } }, "sha512-PkTvKM/9dk17ePw+g2lbrIhk+8/sLfI+UMzpn2uzpkNh8BFpiDc6/dYdWwFGyA5BO5NaJBUij1hO7sqrCGX9kw=="],
 
     "bail": ["bail@2.0.2", "", {}, "sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw=="],
 
